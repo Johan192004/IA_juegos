@@ -1,7 +1,7 @@
 # Desafío IA: Transformando un Proceso Tradicional
 
 ## 1. Introducción
-En este documento, se expone cómo un proceso tradicional puede mejorarse mediante la incorporación de la inteligencia artificial. Se eligió como caso de uso tiendas de juegos en linea, muy común en la insdustria de los videojuegos.
+En este documento, se expone cómo un proceso tradicional puede mejorarse mediante la incorporación de la inteligencia artificial. Se eligió como caso de uso tiendas de juegos en linea, muy común en la industria de los videojuegos.
 
 ## 2. Descripción del Proceso Tradicional
 **Situación actual:**  
@@ -32,8 +32,8 @@ En este documento, se expone cómo un proceso tradicional puede mejorarse median
 | Aspecto                    | Proceso Tradicional              | Solución con IA                         |
 |----------------------------|----------------------------------|-----------------------------------------|
 | Velocidad de respuesta     | Normal                           | Alta, automática                        |
-| Costo operativo            | Normal                           | Alta, eficiente                         |
-| Consistencia de respuestas | Variable                         | Mejoradas                               |
+| Costo operativo            | Ninguno                          | Medio, eficiente                         |
+| Consistencia de respuestas | Estaticas                        | Mejoradas (Recomendaciones)             |
 | Adaptabilidad              | Limitada                         | Dinámica, con aprendizaje continuo      |
 
 ## 5. Reflexión Personal
