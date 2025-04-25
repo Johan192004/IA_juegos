@@ -1,54 +1,44 @@
 # Desafío IA: Transformando un Proceso Tradicional
 
 ## 1. Introducción
-En este documento, se expone cómo un proceso tradicional puede mejorarse mediante la incorporación de la inteligencia artificial. Se eligió como caso de uso [nombre del proceso o servicio], muy común en [contexto/industria].
+En este documento, se expone cómo un proceso tradicional puede mejorarse mediante la incorporación de la inteligencia artificial. Se eligió como caso de uso tiendas de juegos en linea, muy común en la insdustria de los videojuegos.
 
 ## 2. Descripción del Proceso Tradicional
 **Situación actual:**  
-- [Descripción breve del proceso actual, por ejemplo: "La atención al cliente en nuestra empresa se realiza mediante respuestas manuales en un call center."]
-
+- El usuario inicia sesion en su respectiva plataforma(PS, XBOX, STEAM, etc), y luego cuando quiere comprar un juego, lo busca manualmente en la tienda de juegos de su respectiva plataforma.
 **Problemas o limitaciones del método tradicional:**  
-- Lenta respuesta a los clientes.  
-- Alto costo operativo.  
-- Dificultad para manejar picos de demanda.  
-- Respuestas inconsistentes o estandarizadas.
+- Menor tasa de compras.  
+- Perdida de clientes.
+- El usuario muchas veces no sabe lo que quiere.  
 
 ## 3. Propuesta de Solución con IA
 **Objetivo de la solución:**  
-- Automatizar y personalizar el proceso mediante un sistema basado en IA.
+- Automatizar y personalizar el proceso mediante un sistema basado en IA en el cual se le recomendaran juegos al usuario.
 
 **Descripción de la solución IA:**  
-- **Tecnología empleada:** Modelo de procesamiento de lenguaje natural (NLP).  
+- **Tecnología empleada:** Modelo LightFM. 
 - **Integración en el flujo:**
-  - El sistema recibe la entrada del usuario.
-  - La IA interpreta la intención y genera una respuesta o acción automática.
-  - Intervención humana solo en casos complejos.
+  - El sistema almacena las compras y juegos del usuario.
+  - La IA interpreta los gustos del usuario (Genero, historia, etc.)
+  - La IA le recomienda al usuario juegos.
 
 **Beneficios esperados:**  
-- Mayor velocidad de respuesta.  
-- Mejora en la personalización.  
+- Mayor satisfaccion del usuario.   
 - Capacidad de aprendizaje continuo.  
-- Reducción de costos operativos.
+- Mayor ganancias.
 
 ## 4. Comparativa entre Procesos
 
 | Aspecto                    | Proceso Tradicional              | Solución con IA                         |
 |----------------------------|----------------------------------|-----------------------------------------|
-| Velocidad de respuesta     | Lento                            | Alta, automática                        |
-| Costo operativo            | Alto                             | Bajo, eficiente                         |
-| Consistencia de respuestas | Variable                         | Homogénea y mejorada                   |
-| Adaptabilidad              | Limitada                         | Dinámica, con aprendizaje continuo     |
+| Velocidad de respuesta     | Normal                           | Alta, automática                        |
+| Costo operativo            | Normal                           | Alta, eficiente                         |
+| Consistencia de respuestas | Variable                         | Mejoradas                               |
+| Adaptabilidad              | Limitada                         | Dinámica, con aprendizaje continuo      |
 
 ## 5. Reflexión Personal
 
-Este ejercicio demuestra que la IA no solo mejora la eficiencia, sino que también permite una mayor adaptabilidad y personalización en los procesos. Sin embargo, es crucial asegurar la calidad de los datos, establecer mecanismos de supervisión humana y considerar las implicaciones éticas de cada implementación.
+Este ejercicio demuestra que la IA es una herramiento multiproposito que permite solucionar problemas donde la inteligencia humana es clave. Gracias a esta herramienta, las empresas y los usuarios finales se favorecen al tener mayores ganancias y tener mas facilidad.
 
 ---
 
-## Tiempo Sugerido
-
-Dedica entre 30 y 45 minutos para desarrollar esta documentación.
-
-## Entregable
-
-Repositorio en GitHub con un archivo `README.md` que incluya toda la información anterior.
